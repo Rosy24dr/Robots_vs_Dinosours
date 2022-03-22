@@ -23,7 +23,7 @@ class Battlefield:
         print('Welcome to the Robots vs Dinosours battle!!')
 
     def battle(self):
-        print(f"{self.robot_result_list}'s uses {self.robot.weapon} and {self.attack} {self.dino_result_list}")
+        print(f"{self.robot_result_list}'s uses {self.robot.weapon} and {self.robot.attack()} {self.dino_result_list}")
 
     def dino_turn(self,dinosour):
         print(f"It is {dinosour}'s turn.")
