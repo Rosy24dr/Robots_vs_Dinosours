@@ -11,7 +11,7 @@ class Battleship:
         pass
 
     def display_welcome(self):
-        pass
+        print('Welcome to the Robots vs Dinosours battle!!')
 
     def battle(self):
         pass
@@ -30,3 +30,6 @@ class Battleship:
 
     def display_winners(self):
         pass
+
+display = Battleship()
+print(display.display_welcome())
