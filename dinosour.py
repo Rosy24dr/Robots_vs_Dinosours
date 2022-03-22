@@ -1,6 +1,3 @@
-from urllib import robotparser
-
-
 class Dinosours:
     def __init__(self,name,attack_power):
         self.name = name
@@ -9,12 +6,15 @@ class Dinosours:
     
     
     def attack(self,robot):
-            while self.attack_power <= self.health:
-                self.health -= 10
-                print(f'The dinosour attacked the{robot.name}')
-                return self.health
+        robot.health -= self.attack_power
 
-dino = Dinosours('Julio', 50)
-print(dino.name)
+# dino = Dinosours('Julio', 50)
+# print(dino.name)
 
-dino.attack()
+# dino_two = Dinosours('Kia', 10)
+
+# robot_one = Robot('Hiu')
+# print(robot_one.name)
+
+# dino_two.attack(robot_one)
+

@@ -15,3 +15,6 @@ class Fleet:
         self.robots.append(robot_three)
 
 
+# robot_list = Fleet()
+# robot_list.create_fleet()
+# print(robot_list.robots[0].name)

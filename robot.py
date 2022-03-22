@@ -7,4 +7,10 @@ class Robot:
         self.weapon = Weapon('sword', 10)
 
     def attack(self,dinosour):
-        pass
+        dinosour.health -= self.weapon.attack_power
+
+
+# dino_one = Dinosours('Luis', 10)
+# robot_one = Robot('Jiu')
+
+# robot_one.attack(dino_one)
