@@ -43,7 +43,7 @@ class Battlefield:
         print('These are the robots:')
         for robot in self.fleet.robots:
             print(robot.name)
-            self.robot_result_list.append[robot]
+            self.robot_result_list.append(robot)
 
     def display_winners(self):
         pass
